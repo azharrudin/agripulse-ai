@@ -1,6 +1,7 @@
 openmeteo-requests
 requests-cache 
 retry-requests
-joblib 
+joblib
+xgboost 
 matplotlib
 pandas

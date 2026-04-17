@@ -73,7 +73,7 @@ weather = st.session_state.get("weather", {
     "rainfall_mm": 3,
     "temperature_c": 25.0,
     "humidity_pct": 60.0,
-    "solar_irradiance_wm2": 500.0,
+    "solar_irradiance_wm2": 0.0,
     "month": 1
 })
 
