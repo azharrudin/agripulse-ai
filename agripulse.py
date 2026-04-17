@@ -5,6 +5,7 @@ from retry_requests import retry
 from datetime import datetime
 import joblib
 import pandas as pd
+import xgboost
 @st.cache_resource
 def load_model():
     return joblib.load("agripulse.pkl")  
