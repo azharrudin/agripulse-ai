@@ -82,7 +82,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Cuaca")
-    st.write("Data ini berasal dari BMKG (otomatis), dapa diubah untuk menyesuaikan")
+    st.write("Data ini berasal dari BMKG (otomatis), dapat diubah untuk menyesuaikan")
 
     rainfall_mm = st.number_input(
         "Rainfall (mm)",
@@ -168,8 +168,7 @@ if st.button("Predict"):
             "fertilizer_kg": [prediction[0][2]],
         })
         st.dataframe(tb)
-        with st.expander("Feature Vector"):
-            st.write(feature)
+   
 
     except Exception as e:
         st.error(f"Prediction failed: {e}")
